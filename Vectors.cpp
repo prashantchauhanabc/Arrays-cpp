@@ -1,0 +1,18 @@
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main(){
+//     vector<int>arr(5);
+//     for(int i=0; i<5; i++){
+//         cout<<arr[i]<<" ";
+//     }
+// }
+#include<iostream>
+#include<vector>
+using namespace std;
+int main(){
+    vector<int>arr(5,18);
+    for(int i=0; i<5; i++){
+        cout<<arr[i]<<" ";
+    }
+}
