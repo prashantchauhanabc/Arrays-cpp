@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     vector<int>arr(5,18);
-    for(int i=0; i<arr.size(); i++){
+    for(int i = 0; i<arr.size(); i++){
         cout<<arr[i]<<" ";
     }
     cout<<endl;
@@ -14,4 +14,22 @@ int main(){
     for(int i=0; i<arr.size(); i++){
         cout<<arr[i]<<" ";
     }
-} 
+
+}
+// #include<iostream>
+// #include<vector>
+// using namespace std;
+// int main(){
+//     vector<int>arr(5,18);
+//     for(int i=0; i<arr.size(); i++){
+//         cout<<arr[i]<<" ";
+//     }
+//     cout<<endl;
+//     arr.push_back(5);
+//     arr.push_back(14);
+//     arr.pop_back();
+//     arr.push_back(7);
+//     for(int i=0; i<arr.size(); i++){
+//         cout<<arr[i]<<" ";
+//     }
+// } 
